@@ -1,0 +1,90 @@
+.ommabop{
+    margin-top: 150px;
+}
+.omma__list{
+    display: grid;
+grid-template-columns: repeat(5,1fr);
+gap: 35px;
+}
+
+.brend{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px
+    ;
+}
+.brend__li{
+    width: 188px;
+    height: 100px;
+    display: inline-flex;
+padding: 5px 49px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #FCFFFC;
+}
+
+.dokon{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 35px;
+}
+
+.dokon__item{
+    width: 188px;
+    height: 100px;
+    display: inline-flex;
+padding: 5px 49px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #FCFFFC;
+}
+
+@media only screen and (max-width:1299px){
+    .omma__list{
+        display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    }
+}
+
+@media only screen and (max-width:1025px){
+    .omma__list{
+        display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    }
+    .brend{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px
+        ;
+    }
+    .dokon{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+    }
+}
+@media only screen and (max-width:533px){
+    .omma__list{
+        display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 15px;
+    }
+    .brend{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 15px
+        ;
+    }
+    .dokon{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 15px;
+    }
+}
+
